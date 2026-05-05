@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SakhiSanchay">
+        <activity
+            android:name=".auth.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.sakhisanchay.member.MemberDashboardActivity" />
+        <activity android:name="com.android.sakhisanchay.admin.AdminDashboardActivity" />
+        <activity android:name="com.android.sakhisanchay.admin.CreateGroupActivity" />
+        <activity android:name="com.android.sakhisanchay.auth.RegisterActivity" />
+        <activity android:name="com.android.sakhisanchay.admin.AddMemberActivity" />
+        <activity android:name="com.android.sakhisanchay.admin.GroupDetailsActivity" />
+        <activity android:name="com.android.sakhisanchay.admin.CollectSavingsActivity" />
+        <activity android:name=".SavingsHistoryActivity" />
+        <activity android:name="com.android.sakhisanchay.admin.MembersListActivity" />
+        <activity android:name="com.android.sakhisanchay.admin.GiveLoanActivity" />
+        <activity android:name="com.android.sakhisanchay.MemberDashboardActivity" />
+        <activity android:name="com.android.sakhisanchay.member.HistoryActivity" />
+    </application>
+
+</manifest>
