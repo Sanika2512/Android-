@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">FileHandlingApp</string>
-    <string name="enter_text">Enter text</string>
-    <string name="save">Save to File</string>
-    <string name="read">Read from File</string>
-    <string name="output">Output will appear here</string>
-</resources>
